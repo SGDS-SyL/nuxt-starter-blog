@@ -7,5 +7,5 @@ date: 2023-10-05
 
 # Sample article
 
-Hello Everyong! 👋
+Hello Everyone! 👋
 Welcome to my first article!

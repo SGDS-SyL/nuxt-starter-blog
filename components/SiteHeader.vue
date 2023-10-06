@@ -5,7 +5,7 @@
         <img src="/images/logo.svg" alt="Logo" width="100" height="100" />
       </NuxtLink>
     </div>
-    <p class="prose mx-auto my-5 max-w-xl text-center lg:prose-lg">
+    <p class="mx-auto my-5 max-w-xl text-center">
       <h2 class="font-semibold text-xl mb-2">An open source content by 
         <NuxtLink class="text-orange-600" to="https://sgds.app">SGDS</NuxtLink>
       </h2>
