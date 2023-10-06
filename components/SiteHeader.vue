@@ -9,7 +9,14 @@ const toggleDark = useToggle(isDark);
   <header>
     <div class="mx-auto w-24">
       <NuxtLink to="/">
-        <img src="/images/logo.svg" alt="Logo" width="100" height="100" />
+        <ClientOnly>
+          <img
+            :src="`/images/${isDark ? 'logo-dark.svg' : 'logo.svg'}`"
+            alt="Logo"
+            width="100"
+            height="100"
+          />
+        </ClientOnly>
       </NuxtLink>
     </div>
     <div class="mx-auto my-5 max-w-xl text-center">

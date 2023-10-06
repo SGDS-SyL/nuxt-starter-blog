@@ -7,11 +7,15 @@ defineProps<{
 </script>
 
 <template>
-  <ul class="mx-auto gap-3 lg:flex justify-center">
+  <ul class="mx-auto gap-3 lg:flex justify-center not-prose">
     <li v-for="page in totalPages" :key="page">
       <NuxtLink
         :to="`${link}?page=${page}`"
-        :class="currentPage === page ? 'bg-gray-100' : ''"
+        :class="
+          currentPage === page
+            ? 'bg-gray-100 dark:bg-gray-800 dark:text-gray-200'
+            : ''
+        "
         class="inline-flex rounded-md px-3 py-1 hover:bg-gray-200"
       >
         {{ page }}

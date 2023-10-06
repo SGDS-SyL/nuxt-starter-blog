@@ -20,13 +20,13 @@ const publishedOn = computed(() => {
   <div class="flex justify-between gap-12 lg:justify-start">
     <div v-if="article.author">
       <div class="mb-1 text-sm font-medium text-gray-500">Written by</div>
-      <div class="text-md font-medium text-gray-900">
+      <div class="text-md font-medium text-gray-900 dark:text-gray-400">
         {{ article.author }}
       </div>
     </div>
     <div v-if="publishedOn">
       <div class="mb-1 text-sm font-medium text-gray-500">Published on</div>
-      <div class="text-md font-medium">
+      <div class="text-md font-medium text-gray-900 dark:text-gray-400">
         {{ publishedOn }}
       </div>
     </div>
