@@ -11,7 +11,7 @@
       </h2>
       This is a starter blog created with Nuxt 3 Content and Tailwind CSS.<br/>
       🌟 Check out this
-      <NuxtLink class="underline" to="https://sgds.app/articles/creating-a-blog-with-nuxt-content-and-tailwind">
+      <NuxtLink class="underline" to="https://sgds.app/articles/create-a-nuxt-3-content-blog-with-tailwind-css-in-one-hour">
         tutorial here to learn how we build it step by step.
       </NuxtLink> 🌈
     </p>
