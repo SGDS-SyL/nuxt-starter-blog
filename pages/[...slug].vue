@@ -1,3 +1,14 @@
+<script setup lang="ts">
+const { path } = useRoute();
+
+const { data: article } = await useAsyncData(`article-${path}`, () =>
+  queryContent(path).count()
+);
+
+if (!article.value) {
+  throw createError({ statusCode: 404 });
+}
+</script>
 <template>
   <main class="my-20 max-w-5xl mx-auto">
     <ContentDoc v-slot="{ doc }">
