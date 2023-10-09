@@ -2,7 +2,7 @@
 
 Check out [live demo here](https://nuxt-starter-blog.vercel.app/)
 
-![Preview](https://nuxt-starter-blog.vercel.app/public/images/preview.png)
+![Preview](https://nuxt-starter-blog.vercel.app/images/preview.png)
 
 Check out this step by step [tutorial here](https://sgds.app/articles/create-a-nuxt-3-content-blog-with-tailwind-css-in-one-hour) to learn how we build this.
 
